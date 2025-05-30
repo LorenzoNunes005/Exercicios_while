@@ -10,7 +10,7 @@ int main() {
         scanf("%f", &nota);
 
         if (nota < 0 || nota > 10) {
-            break; // Encerra se a nota for inválida
+            break;
         }
 
         soma += nota;
